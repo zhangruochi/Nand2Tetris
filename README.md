@@ -56,9 +56,8 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 - [Note](./week1/note.md)
 - [Slides](./week1/slides)
 - [Porjects](./week1/projects)
-   - [Porject0](./week1/projects/projet0)
+   - [Porject0](./week1/projects/project0)
 - [Attachments](./week1/attachments)
-
 
 
 
@@ -66,7 +65,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 - [Note](./week2/note.md)
 - [Slides](./week2/slides)
 - [Porjects](./week2/projects)
-- [Attachments](./week2/attachments)|
+- [Attachments](./week2/attachments)
 
 
 ### Week3
