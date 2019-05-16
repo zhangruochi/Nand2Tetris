@@ -1,7 +1,10 @@
 Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)
 ========
 
-* [Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)](#build-a-modern-computer-from-first-principles-from-nand-to-tetris-project-centered-course)
+Table of Contents
+=================
+
+   * [Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)](#build-a-modern-computer-from-first-principles-from-nand-to-tetris-project-centered-course)
       * [Introduction](#introduction)
          * [About this Course](#about-this-course)
          * [What you’ll need:](#what-youll-need)
