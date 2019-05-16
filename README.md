@@ -5,10 +5,12 @@ Table of Contents
 =================
 
    * [Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)](#build-a-modern-computer-from-first-principles-from-nand-to-tetris-project-centered-course)
+   * [Table of Contents](#table-of-contents)
       * [Introduction](#introduction)
          * [About this Course](#about-this-course)
          * [What you’ll need:](#what-youll-need)
          * [Course format:](#course-format)
+         * [Resources](#resources)
       * [My Course Note](#my-course-note)
          * [Week1](#week1)
          * [Week2](#week2)
@@ -37,8 +39,12 @@ The course consists of six modules, each comprising a series of video lectures, 
 About Project-Centered Courses: Project-centered courses are designed to help you complete a personally meaningful real-world project, with your instructor and a community of learners with similar goals providing guidance and suggestions along the way. By actively applying new concepts as you learn, you’ll master the course content more efficiently; you’ll also get a head start on using the skills you gain to make positive changes in your life and career. When you complete the course, you’ll have a finished project that you’ll be proud to use and share.
 
 
-## My Course Note
+### Resources
+- [Course Resouces](./resources)
 
+
+
+## My Course Note
 
 ### Week1
 - [Note](./week1/note.md)
