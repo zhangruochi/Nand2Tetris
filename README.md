@@ -65,30 +65,30 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
        - Project 1 Overview
 - [Note](./week1/README.md)
 - [Slides](./week1/slides)
-- [Porject](./week1/project)
+- [Porjects](./week1/projects)
+   - [Porject0](./week1/projects/project0)
 - [Attachments](./week1/attachments)
-
 
 
 
 ### Week2
 - [Note](./week2/README.md)
 - [Slides](./week2/slides)
-- [Porject](./week2/project)
-- [Attachments](./week2/attachments)|
+- [Porjects](./week2/projects)
+- [Attachments](./week2/attachments)
 
 
 ### Week3
 - [Note](./week3/README.md)
 - [Slides](./week3/slides)
-- [Porject](./week3/project)
+- [Porjects](./week3/projects)
 - [Attachments](./week3/attachments)
 
 
 ### Week4
 - [Note](./week4/README.md)
 - [Slides](./week4/slides)
-- [Porject](./week4/project)
+- [Porjects](./week4/projects)
 - [Attachments](./week4/attachments)
 
 
@@ -96,7 +96,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 ### Week5
 - [Note](./week5/README.md)
 - [Slides](./week5/slides)
-- [Porject](./week5/project)
+- [Porjects](./week5/projects)
 - [Attachments](./week5/attachments)
 
 
@@ -104,7 +104,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 - [Note](./week6/README.md)
 - [Slides](./week6/slides)
-- [Porject](./week6/project)
+- [Porjects](./week6/projects)
 - [Attachments](./week6/attachments)
 
 
