@@ -53,7 +53,17 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 ## My Course Notes
 
 ### Week1
-- [Note](./week1/note.md)
+- Overview
+   - Introduction
+       - Introduction
+   - Boolean Functions and Gate Logic
+       - Boolean Function Synthesis
+       - Logic Gates
+       - Hardware Description Language
+       - Hardware Simulation
+       - Multi-Bit Buses
+       - Project 1 Overview
+- [Note](./week1/README.md)
 - [Slides](./week1/slides)
 - [Porject](./week1/project)
 - [Attachments](./week1/attachments)
@@ -62,21 +72,21 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 
 ### Week2
-- [Note](./week2/note.md)
+- [Note](./week2/README.md)
 - [Slides](./week2/slides)
 - [Porject](./week2/project)
 - [Attachments](./week2/attachments)|
 
 
 ### Week3
-- [Note](./week3/note.md)
+- [Note](./week3/README.md)
 - [Slides](./week3/slides)
 - [Porject](./week3/project)
 - [Attachments](./week3/attachments)
 
 
 ### Week4
-- [Note](./week4/note.md)
+- [Note](./week4/README.md)
 - [Slides](./week4/slides)
 - [Porject](./week4/project)
 - [Attachments](./week4/attachments)
@@ -84,7 +94,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 
 ### Week5
-- [Note](./week5/note.md)
+- [Note](./week5/README.md)
 - [Slides](./week5/slides)
 - [Porject](./week5/project)
 - [Attachments](./week5/attachments)
@@ -92,7 +102,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 ### Week6
 
-- [Note](./week6/note.md)
+- [Note](./week6/README.md)
 - [Slides](./week6/slides)
 - [Porject](./week6/project)
 - [Attachments](./week6/attachments)
