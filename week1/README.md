@@ -14,8 +14,12 @@
 - Infinitely many Boolean expressions are equivalent to the same Boolean function
 - Boolean values are the two logic constants True, and False. 
 -  for n independent Boolean variables, each taking one particular Boolean value, there are $2^n$ different possible combinations. A Boolean function has to assign one Boolean value to each one of these combinations. This brings the number of different possible Boolean functions of n variables to a total of $2^{2^n}$
+- ![](resources/functions.png)
 
-![](resources/functions.png)
+
+3. Boolean Identities
+![](resources/identities.png)
+
 
 ### two ways to represent the boolean functions
 
