@@ -83,7 +83,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 - [Note](./week2/README.md)
 - [Slides](./week2/slides)
 - [Projects](./week2/projects)
-  - [Project2](./week1/projects/project2)
+  - [Project2](./week2/projects/project2)
 - [Attachments](./week2/attachments)
 
 
