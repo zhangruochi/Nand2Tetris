@@ -65,31 +65,39 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
        - Project 1 Overview
 - [Note](./week1/README.md)
 - [Slides](./week1/slides)
-- [Porjects](./week1/projects)
-   - [Porject0](./week1/projects/project0)
-   - [Porject1](./week1/projects/project1)
+- [Projects](./week1/projects)
+   - [Project0](./week1/projects/project0)
+   - [Project1](./week1/projects/project1)
 - [Attachments](./week1/attachments)
 
 
 
 ### Week2
+- Overview
+  - Boolean Arithmetic
+    - Binary numbers
+    - Binary addition
+    - Negative numbers
+    - Arithmetic Logic Unit
+    - Project 2 overview
 - [Note](./week2/README.md)
 - [Slides](./week2/slides)
-- [Porjects](./week2/projects)
+- [Projects](./week2/projects)
+  - [Project2](./week1/projects/project2)
 - [Attachments](./week2/attachments)
 
 
 ### Week3
 - [Note](./week3/README.md)
 - [Slides](./week3/slides)
-- [Porjects](./week3/projects)
+- [Projects](./week3/projects)
 - [Attachments](./week3/attachments)
 
 
 ### Week4
 - [Note](./week4/README.md)
 - [Slides](./week4/slides)
-- [Porjects](./week4/projects)
+- [Projects](./week4/projects)
 - [Attachments](./week4/attachments)
 
 
@@ -97,7 +105,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 ### Week5
 - [Note](./week5/README.md)
 - [Slides](./week5/slides)
-- [Porjects](./week5/projects)
+- [Projects](./week5/projects)
 - [Attachments](./week5/attachments)
 
 
@@ -105,7 +113,7 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 - [Note](./week6/README.md)
 - [Slides](./week6/slides)
-- [Porjects](./week6/projects)
+- [Projects](./week6/projects)
 - [Attachments](./week6/attachments)
 
 
