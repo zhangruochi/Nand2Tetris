@@ -93,10 +93,10 @@ A multiplexor is a three-input gate that uses one of the inputs, called **select
 ![](resources/Multiplexor.png)
 
 ```BASH
-Chip name: Xor
-Inputs: a, b
+Chip name: Mux
+Inputs: a, b, sel
 Outputs: out
-Function: If a=/b then out=1 else out=0.
+Function: If sel=0 then out=a else out=b.
 ```
 
 ### Demultiplexor

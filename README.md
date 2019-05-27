@@ -88,6 +88,13 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 
 ### Week3
+- Overview
+  - Time matters
+  - Sequential logic
+  - Flip Flops
+  - Memory units
+  - Counters
+  - Project 3 overview
 - [Note](./week3/README.md)
 - [Slides](./week3/slides)
 - [Projects](./week3/projects)
