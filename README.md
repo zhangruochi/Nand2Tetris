@@ -98,10 +98,18 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 - [Note](./week3/README.md)
 - [Slides](./week3/slides)
 - [Projects](./week3/projects)
+  - [Project3](./week3/projects/project3)
 - [Attachments](./week3/attachments)
 
 
 ### Week4
+- Overview
+  - Basic elements
+  - The Hack computer and machine language
+  - The Hack language specification
+  - Input / Output
+  - Hack programming
+  - Project 4 overview
 - [Note](./week4/README.md)
 - [Slides](./week4/slides)
 - [Projects](./week4/projects)
