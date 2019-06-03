@@ -16,7 +16,6 @@
     @status
     M=-1        // status=0xFFFF
     D=0         // Argument - what to set screen bits to
-    
     @SETSCREEN
     0;JMP
 

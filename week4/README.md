@@ -1,6 +1,7 @@
 Table of Contents
 =================
 
+   * [Table of Contents](#table-of-contents)
       * [Background](#background)
       * [Machine languages](#machine-languages)
          * [Mnemonics](#mnemonics)
@@ -35,7 +36,7 @@ Table of Contents
 
 **Registers**  Memory access is a relatively slow operation, requiring long instruction formats (an address may require 32 bits). For this reason, most processors are equipped with several registers, each capable of holding a single value. Located in the processor’s immediate proximity, the registers serve as a high-speed local memory, allowing the processor to manipulate data and instructions quickly. **This setting enables the programmer to minimize the use of memory access commands, thus speeding up the program’s execution.**
 
-![](1.png)
+![](resources/1.png)
 
 
 
@@ -48,7 +49,7 @@ Table of Contents
 
 For example, the language designer can decide that the operation code 1010 will be represented by the mnemonic add and that the registers of the machine will be symbolically referred to using the symbols R0, R1, R2, and so forth. Using these conventions, one can specify machine language instructions either directly, as 1010001100011001, or symbolically, as, say, ADD R3,R1,R9.
 
-![](3.png)
+![](resources/3.png)
 
 ### Commands
 Yet irrespective of this variety, all machine lan- guages support similar sets of generic commands, which we now describe.
@@ -107,11 +108,11 @@ jmp 102 // goto 102
 ```
     
 ### Compilation
-![](2.png)                  
+![](resources/2.png)                  
 
 
 ## The Hack language specification
-![](4.png)
+![](resources/4.png)
 
 **Memory Address Spaces** The Hack computer is a von Neumann platform. It is a 16-bit machine, consisting of a CPU, two separate memory modules serving as **instruction memory** and **data memory**, and two memory-mapped I/O devices: a screen and a keyboard.The CPU can only execute programs that reside in the instruction memory.
 
@@ -129,7 +130,7 @@ jmp 102 // goto 102
 
 The A-instruction is used to set the A register to a 15-bit values
 $$@valu$$
-![](5.png)
+![](resources/5.png)
 
 The A-instruction is used for three different purposes.
 - it provides the only way to **enter a constant** into the computer under program control.
@@ -145,14 +146,14 @@ The instruction code is a specification that answers three questions:
 
 The overall semantics of the symbolic instruction dest=comp;jump is as follows. The **comp** field instructs the ALU what to compute. The **dest** field instructs where to store the computed value (ALU output).
 
-![](6.png)
+![](resources/6.png)
 
 #### The Computation Specification(comp)
 The Hack ALU is designed to compute a fixed set of functions on the D, A, and M registers (where M stands for Memory[A]). 
 
 Recall that the format of the C-instruction is 111accccccdd djjj. Suppose we want to have the ALU compute D-1, the current value of the D register minus 1. According to figure blow, this can be done by issuing the instruction 1110001110000000 (the 7-bit operation code is in bold). To compute the value of D|M, we issue the instruction 1111 010101000000. To compute the constant 􏰁1, we issue the instruction 1110111010000000, and so on.
 
-![](7.png)
+![](resources/7.png)
 
 
 ### The Destination Specification
@@ -166,8 +167,7 @@ Recall that the format of the C-instruction is 111a cccc ccdd djjj. Suppose we w
 1111 1101 1101 1000    // MD=M+1
 ```
 
-!()[8.png]
-
+![](resources/8.png)
 ### The Jump Specification
 
 The jump field of the C-instruction tells the computer what to do next.
@@ -185,7 +185,7 @@ D;JEQ  // If D=0 goto 100
 0;JMP  // Goto 200
 ```
 
-!()[9.png]
+![](resources/9.png)
 
 ### Symbols
 
@@ -202,7 +202,7 @@ Assembly commands can refer to memory locations (addresses) using either constan
 
 ## Hack programs: symbolic and binary
 
-[](13.png)
+[](resources/13.png)
 
 ## Input / Output
 
@@ -212,7 +212,7 @@ The Hack platform can be connected to two peripheral devices: a screen and a key
 - The physical display is continuously refreshed from the memory map, many times per second
 - Output is effected by writing code that manipulates the screen memory map.
 
-![](10.png)
+![](resources/10.png)
 
 ### Screen 
 The Hack computer includes a black-and-white screen organized as 256 rows of 512 pixels per row. The screen’s contents are represented by an 8K memory map that starts at RAM address 16384 (0x4000). Each row in the physical screen, starting at the screen’s top left corner, is represented in the RAM by 32 consecutive 16-bit words. Thus the pixel at row r from the top and column c from the left is mapped on the c%16 bit (counting from LSB to MSB) of the word located at RAM[16384 + r \*􏰀 32 + c/16]. To write or read a pixel of the physical screen, one reads or writes the corresponding bit in the RAM-resident memory map (1 1⁄4 black, 0 1⁄4 white). Example:
@@ -292,7 +292,7 @@ M=0 //i=0
 ### Keyboard 
 The Hack computer interfaces with the physical keyboard via a single-word memory map located in RAM address 24576 (0x6000). Whenever a key is pressed on the physical keyboard, its 16-bit ASCII code appears in RAM[24576]. When no key is pressed, the code 0 appears in this location. In addition to the usual ASCII codes, the Hack keyboard recognizes the keys shown in figure 4.6.
 
-![](12.png)
+![](resources/12.png)
 
 ## Syntax Conventions and File Format
 
@@ -317,7 +317,8 @@ The Hack computer interfaces with the physical keyboard via a single-word memory
 ## Hack programming
 
 ### Hack assembly language (overview)
-(14.png)
+![](resources/16.png)
+![](resources/14.png)
 
 #### Registers and memory
 
@@ -325,7 +326,7 @@ The Hack computer interfaces with the physical keyboard via a single-word memory
 - A: address / data register
 - M: the currently selected memory register: M = RAM[A]
 
-![](15.png)
+![](resources/15.png)
 
 Typical operations:
 
@@ -375,11 +376,11 @@ M=D
 ```
 
 #### Branching and Labels
-![](17.png)
+![](resources/17.png)
 
 
 #### Variables
-![](18.png)
+![](resources/18.png)
 
 
 #### Iterative processing
@@ -439,4 +440,4 @@ STOP:
 
 #### Pointers
 
-![](19.png)
+![](resources/19.png)
