@@ -118,6 +118,13 @@ The Course Instructors are Noam Nisan and Shimon Schocken.
 
 
 ### Week5
+- Overview
+  - The von Neumann Architecture
+    - Memory
+    - Central Processing Unit(CPU)
+    - Registers
+    - Input and Output
+  - Hack Computer implementation
 - [Note](./week5/README.md)
 - [Slides](./week5/slides)
 - [Projects](./week5/projects)
